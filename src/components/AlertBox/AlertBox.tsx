@@ -1,13 +1,4 @@
-import type { AlertType } from "../types"
-
-interface AlertBoxProps{
-    type: AlertType
-    message:string;
-    onClose?: () => void
-    children?:React.ReactNode
-}
-
-
+import type { AlertBoxProps} from "../types"
 
 
 const AlertBox = ({type, message, onClose, children}:AlertBoxProps) => {
